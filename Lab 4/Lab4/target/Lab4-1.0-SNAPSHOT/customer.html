@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Task 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h2{
+                color:purple;
+            } 
+
+            label{
+            display: inline-block; 
+            margin-right:10px;
+            width: 150px;
+            } 
+        </style>
+    </head>
+    <body>
+        <h1>Use JSP Scriplet and JSP Expression in Application</h1>
+        <h2> Customer dicount</h2>
+        
+            <form action="processCustomer.jsp">
+                
+              <label for="cust_no">Customer code </label>
+              <input type="text" id="cust_no" name="cust_no" placeholder="key in customer code">
+              <br><br>
+              <label for="quantity">Quantity</label>
+              <input type="number" id="quantity" name="quantity" placeholder="key in quantity">
+              <br><br>
+              <label>Customer Type</label>
+              <input type="radio" id="normal" name="cust_type" value="Normal customer">
+              <label for="normal">Normal Customer</label>
+              <input type="radio" id="privilege" name="cust_type" value="Privilege customer">
+              <label for="privilege">Privilege Customer</label>
+              <br><br>
+              <input type="submit" value="Submit">
+              <input type="reset" value="Cancel">
+
+            </form> 
+    </body>
+    <footer>
+            &copy;2024 EZREENA
+ </footer>
+</html>
